@@ -1,10 +1,11 @@
 package com.example.tankscompose.di
 
-import com.example.tankscompose.BuildConfig
+
 import com.example.tankscompose.apisource.ApiDataSource
 import com.example.tankscompose.apisource.createInfoDeserializer
 import com.example.tankscompose.apisource.model.claninfo.ClanInfo
 import com.example.tankscompose.apisource.model.playerinfo.PlayerInfo
+import com.google.android.datatransport.runtime.BuildConfig
 import com.google.gson.GsonBuilder
 import dagger.Module
 import dagger.Provides
@@ -61,7 +62,7 @@ object ClanApiInterceptor : Interceptor {
     override fun intercept(chain: Interceptor.Chain): Response {
         val request = chain.request()
         val url = request.url.newBuilder()
-            .addQueryParameter("application_id", BuildConfig.APPLICATION_ID)
+//            .addQueryParameter("application_id", BuildConfig.APPLICATION_ID2)
             .build()
         return chain.proceed(request.newBuilder().url(url).build())
     }

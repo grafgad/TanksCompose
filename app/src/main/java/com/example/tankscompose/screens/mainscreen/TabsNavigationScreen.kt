@@ -1,4 +1,4 @@
-package com.example.tankscompose.ui
+package com.example.tankscompose.screens.mainscreen
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.navigationBarsPadding
@@ -10,7 +10,9 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.tankscompose.NavigationItem
+import com.example.tankscompose.screens.BottomNavigationBar
+import com.example.tankscompose.screens.clanslistscreen.ClansListScreen
+import com.example.tankscompose.screens.playerslistscreen.PlayersListScreen
 
 @Composable
 fun TabsNavigationScreen(modifier: Modifier = Modifier) {
@@ -33,13 +35,13 @@ private fun TabNavigation(
 ) {
     NavHost(
         navController = navHostController,
-        startDestination = NavigationItem.Clans.route,
+        startDestination = NavigationItem.StartScreen.route,
         modifier = modifier) {
         composable(NavigationItem.Clans.route) {
-            ClansScreen()
+            ClansListScreen()
         }
         composable(NavigationItem.Players.route) {
-            PlayersScreen()
+            PlayersListScreen()
         }
     }
 }

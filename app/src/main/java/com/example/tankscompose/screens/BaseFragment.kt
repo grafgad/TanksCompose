@@ -1,4 +1,4 @@
-package com.example.tankscompose.ui.
+package com.example.tankscompose.screens
 
 import android.content.Context
 import android.view.View

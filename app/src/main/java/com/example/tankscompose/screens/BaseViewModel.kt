@@ -1,4 +1,4 @@
-package com.example.tankscompose.ui.
+package com.example.tankscompose.screens
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.disposables.CompositeDisposable

@@ -1,4 +1,4 @@
-package com.example.tankscompose.ui.theme
+package com.example.tankscompose.theme
 
 import androidx.compose.ui.graphics.Color
 

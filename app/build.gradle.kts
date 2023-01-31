@@ -1,7 +1,6 @@
 import com.google.firebase.crashlytics.buildtools.gradle.CrashlyticsExtension
 import org.jetbrains.kotlin.konan.properties.Properties
 
-
 plugins {
     id ("com.android.application")
     kotlin("android")
@@ -29,8 +28,8 @@ android {
         onEach {
             val properties = Properties()
             properties.load(project.rootProject.file("apikey.properties").inputStream())
-            val appId = properties.getProperty("APPLICATION_ID", "")
-            it.buildConfigField("String", "APPLICATION_ID", appId)
+            val appId = properties.getProperty("APPLICATION_ID2", "")
+            it.buildConfigField("String", "APPLICATION_ID2", appId)
         }
         debug{
            isMinifyEnabled = false

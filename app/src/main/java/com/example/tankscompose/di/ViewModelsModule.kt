@@ -2,10 +2,10 @@ package com.example.tankscompose.di
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.tankscompose.ui.claninfo.ClanInfoViewModel
-import com.example.tankscompose.ui.clanslist.ClanViewModel
-import com.example.tankscompose.ui.playerinfo.PlayerInfoViewModel
-import com.example.tankscompose.ui.playerslist.PlayerListViewModel
+import com.example.tankscompose.screens.claninfoscreen.ClanInfoViewModel
+import com.example.tankscompose.screens.clanslistscreen.ClanViewModel
+import com.example.tankscompose.screens.playerinfoscreen.PlayerInfoViewModel
+import com.example.tankscompose.screens.playerslistscreen.PlayerListViewModel
 import dagger.Binds
 import dagger.MapKey
 import dagger.Module
