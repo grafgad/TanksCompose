@@ -16,10 +16,10 @@ import com.example.tankscompose.screens.playerslistscreen.PlayersListScreen
 @Composable
 fun TabsNavigationScreen(modifier: Modifier = Modifier) {
     val navController = rememberNavController()
-    Scaffold (
+    Scaffold(
         modifier = Modifier.navigationBarsPadding(),
         bottomBar = { BottomNavigationBar(navController) },
-        content = {paddingValues ->
+        content = { paddingValues ->
             Box(modifier = modifier.padding(paddingValues)) {
                 TabNavigation(navHostController = navController)
             }
@@ -35,7 +35,8 @@ private fun TabNavigation(
     NavHost(
         navController = navHostController,
         startDestination = NavigationItem.StartScreen.route,
-        modifier = modifier) {
+        modifier = modifier
+    ) {
         composable(NavigationItem.Clans.route) {
             ClansListScreen()
         }
