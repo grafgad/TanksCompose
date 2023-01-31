@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "430760526236",
+    "project_id": "tankscompose",
+    "storage_bucket": "tankscompose.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430760526236:android:d0d49c5d6f615c1b9c4859",
+        "android_client_info": {
+          "package_name": "com.example.tankscompose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430760526236-tc2qp67cadpu19aceotkbm04rrmh005h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhxn__2_BplYZzNDfU1jD4_gteYwbyqDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430760526236-tc2qp67cadpu19aceotkbm04rrmh005h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
