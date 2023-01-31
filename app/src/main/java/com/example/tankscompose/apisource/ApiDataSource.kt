@@ -12,7 +12,7 @@ interface ApiDataSource {
 
     @GET("wot/clans/list/")
     fun getClanList(
-        @retrofit2.http.Query("search")clanName: String
+        @Query("search")clanName: String
     ): Single<ClansListResponse>
 
     @GET("/wot/account/list/")

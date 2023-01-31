@@ -1,4 +1,4 @@
-package com.example.tankscompose.screens
+package com.example.tankscompose.screens.mainscreen
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier

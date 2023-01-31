@@ -55,7 +55,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.2.0"
+        kotlinCompilerExtensionVersion = "1.4.0"
     }
     packagingOptions {
         resources {
@@ -76,10 +76,10 @@ dependencies {
     implementation("com.google.firebase:firebase-config-ktx")
 
     //Room
-    implementation("androidx.room:room-runtime:2.5.0")
-    implementation("androidx.room:room-ktx:2.5.0")
-    implementation("androidx.core:core-ktx:+")
-    kapt("androidx.room:room-compiler:2.5.0")
+//    implementation("androidx.room:room-runtime:2.5.0")
+//    implementation("androidx.room:room-ktx:2.5.0")
+//    implementation("androidx.core:core-ktx:+")
+//    kapt("androidx.room:room-compiler:2.5.0")
 
     //rxJava
     implementation("io.reactivex.rxjava3:rxandroid:3.0.0")
@@ -97,8 +97,8 @@ dependencies {
     implementation("com.squareup.retrofit2:adapter-rxjava3:2.9.0")
 
     //dagger
-    implementation("com.google.dagger:dagger:2.44")
-    kapt("com.google.dagger:dagger-compiler:2.44")
+//    implementation("com.google.dagger:dagger:2.44.2")
+//    kapt("com.google.dagger:dagger-compiler:2.44.2")
 
     //Jetpack Compose
     val composeVersion = "1.3.0-beta01"
