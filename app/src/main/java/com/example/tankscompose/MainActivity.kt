@@ -9,6 +9,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.tankscompose.screens.mainscreen.StartScreen
 import com.example.tankscompose.screens.mainscreen.TabsNavigationScreen
 import com.example.tankscompose.theme.TanksTheme
 
@@ -23,16 +24,10 @@ class MainActivity : ComponentActivity() {
                     color = TanksTheme.color.background
                 ) {
                     TabsNavigationScreen()
-                    Greeting("Android")
                 }
             }
         }
     }
-}
-
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
 }
 
 @Preview(showBackground = true)

@@ -23,7 +23,7 @@ sealed class NavigationItem(
         title = R.string.clans
     )
 
-    object StartScreen : NavigationItem(
+    object StartScreen2 : NavigationItem(
         route = "startScreen",
         iconRes = 0,
         title = 0

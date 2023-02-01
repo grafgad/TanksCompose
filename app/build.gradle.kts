@@ -28,8 +28,8 @@ android {
         onEach {
             val properties = Properties()
             properties.load(project.rootProject.file("apikey.properties").inputStream())
-            val appId = properties.getProperty("APPLICATION_ID2", "")
-            it.buildConfigField("String", "APPLICATION_ID2", appId)
+            val appId = properties.getProperty("APPLICATION_ID", "")
+            it.buildConfigField("String", "APPLICATION_ID", appId)
         }
         debug{
            isMinifyEnabled = false

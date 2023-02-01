@@ -3,4 +3,6 @@
 <!--    Navigation-->
     <string name="players">Игроки</string>
     <string name="clans">Кланы</string>
+<!--    StatScreen-->
+    <string name="stack">My stack</string>
 </resources>

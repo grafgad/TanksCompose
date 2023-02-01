@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -34,7 +35,7 @@ private fun TabNavigation(
 ) {
     NavHost(
         navController = navHostController,
-        startDestination = NavigationItem.StartScreen.route,
+        startDestination = NavigationItem.Clans.route,
         modifier = modifier
     ) {
         composable(NavigationItem.Clans.route) {
@@ -44,4 +45,10 @@ private fun TabNavigation(
             PlayersListScreen()
         }
     }
+}
+
+@Composable
+@Preview
+fun TabsNavigationScreenPreview() {
+    TabsNavigationScreen()
 }
