@@ -16,4 +16,5 @@ object AppColors {
     val BackgroundDark = Color(0xFF244950)
     val CustomGray = Color(0xFFBFBFBF)
     val CustomRed = Color(0xB9EF3D3D)
+    val Gray2 = Color(0x99FFFFFF)
 }
