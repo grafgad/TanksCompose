@@ -11,6 +11,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.tankscompose.screens.claninfoscreen.ClanInfoScreen
 import com.example.tankscompose.screens.clanslistscreen.ClansListScreen
 import com.example.tankscompose.screens.playerslistscreen.PlayersListScreen
 
@@ -39,10 +40,13 @@ private fun TabNavigation(
         modifier = modifier
     ) {
         composable(NavigationItem.Clans.route) {
-            ClansListScreen()
+            ClansListScreen(navHostController)
         }
         composable(NavigationItem.Players.route) {
             PlayersListScreen()
+        }
+        composable("ClanInfoScreen") {
+            ClanInfoScreen()
         }
     }
 }

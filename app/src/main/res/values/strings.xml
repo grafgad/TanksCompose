@@ -5,4 +5,10 @@
     <string name="clans">Кланы</string>
 <!--    StatScreen-->
     <string name="stack">My stack</string>
+<!--    CLanListScreen-->
+    <string name="enter_clan_name">Введите название клана</string>
+
+
+    <string name="find_button_text">Найти</string>
+
 </resources>
