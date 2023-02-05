@@ -14,6 +14,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import com.example.tankscompose.R
+import com.example.tankscompose.navigation.ScreensNavigationItem
 import com.example.tankscompose.theme.TanksTheme
 
 @Composable
@@ -33,13 +34,13 @@ fun ClansListScreen(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(text = stringResource(id = R.string.enter_clan_name))
-        Spacer(modifier = modifier.height(10.dp))
+        Spacer(modifier = Modifier.height(10.dp))
         OutlinedTextField(
             value = text,
             onValueChange = { text = it }
         )
-        Spacer(modifier = modifier.height(10.dp))
-        Button(onClick = { navController.navigate("ClanInfoScreen") }) {
+        Spacer(modifier = Modifier.height(10.dp))
+        Button(onClick = { navController.navigate(ScreensNavigationItem.ClanInfoScreen.className) }) {
             Text(text = stringResource(id = R.string.find_button_text))
         }
     }

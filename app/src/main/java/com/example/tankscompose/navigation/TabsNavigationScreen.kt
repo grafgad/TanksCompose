@@ -1,4 +1,4 @@
-package com.example.tankscompose.screens.mainscreen
+package com.example.tankscompose.navigation
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.navigationBarsPadding
@@ -11,7 +11,6 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.tankscompose.screens.claninfoscreen.ClanInfoScreen
 import com.example.tankscompose.screens.clanslistscreen.ClansListScreen
 import com.example.tankscompose.screens.playerslistscreen.PlayersListScreen
 
@@ -44,9 +43,6 @@ private fun TabNavigation(
         }
         composable(NavigationItem.Players.route) {
             PlayersListScreen()
-        }
-        composable("ClanInfoScreen") {
-            ClanInfoScreen()
         }
     }
 }
