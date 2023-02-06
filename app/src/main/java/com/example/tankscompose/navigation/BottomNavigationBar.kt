@@ -1,4 +1,4 @@
-package com.example.tankscompose.screens.mainscreen
+package com.example.tankscompose.navigation
 
 import androidx.compose.material.BottomNavigation
 import androidx.compose.material.BottomNavigationItem

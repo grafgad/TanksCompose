@@ -1,4 +1,4 @@
-package com.example.tankscompose.screens.mainscreen
+package com.example.tankscompose.navigation
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
@@ -21,11 +21,5 @@ sealed class NavigationItem(
         route = "clans",
         iconRes = R.drawable.ic_baseline_people_24,
         title = R.string.clans
-    )
-
-    object StartScreen2 : NavigationItem(
-        route = "startScreen",
-        iconRes = 0,
-        title = 0
     )
 }

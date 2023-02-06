@@ -23,7 +23,7 @@ fun StartScreen(modifier: Modifier = Modifier) {
     ) {
         Text(
             text = stringResource(id = R.string.stack),
-            modifier = modifier.align(Alignment.Center),
+            modifier = Modifier.align(Alignment.Center),
             color = TanksTheme.color.content,
             fontSize = 24.sp,
             textAlign = TextAlign.Center
