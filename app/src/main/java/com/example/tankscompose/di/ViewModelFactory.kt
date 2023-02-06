@@ -17,21 +17,4 @@ class ViewModelFactory @Inject constructor(
             throw e
         }
     }
-
-
-
-}
-
-fun main(args: Array<String>) {
-    val j = "ab"
-    val s = "aabbccd"
-
-    var result = 0
-    for (c in s) {
-        if (j.contains(c)) {
-            result += 1;
-        }
-    }
-
-    println(result)
 }
