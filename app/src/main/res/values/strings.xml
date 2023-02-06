@@ -6,9 +6,34 @@
 <!--    StatScreen-->
     <string name="stack">My stack</string>
 <!--    CLanListScreen-->
+    <string name="players_count">"Кол-во игроков:  "</string>
     <string name="enter_clan_name">Введите название клана</string>
 
+    <!--ClanInfoScreen-->
+    <string name="members_count">"Кол-во игроков: "</string>
+    <string name="clan_name">Имя клана</string>
+    <string name="clan_tag">Тэг клана</string>
+    <string name="clan_moto">Девиз</string>
+    <string name="clan_description">Описание</string>
 
+    <!--PlayerInfoScreen-->
+    <string name="rating">"Личный рейтинг: "</string>
+    <string name="wins_percent">"Процент побед: "</string>
+    <string name="in_game">"В игре с "</string>
+    <string name="last_battle">"Последний бой сыгран %s"</string>
+    <string name="battle">"Проведено боёв: "</string>
+    <string name="max_frags">"Максимум уничтожено за бой: %d"</string>
+    <string name="max_xp">"Максимальный опыт за бой: %d"</string>
+    <string name="hits_percents">"Процент попаданий: "</string>
+    <string name="battle_avg_xp">"Средний опыт за бой: %d"</string>
+    <string name="wins">"Победы: "</string>
+    <string name="draws">"Ничьи: %d"</string>
+    <string name="spotted">"Обнаружено противников: "</string>
+    <string name="trees_cut">"Повалено деревьев: %d"</string>
+
+
+
+    <!--    Common-->
     <string name="find_button_text">Найти</string>
 
 </resources>

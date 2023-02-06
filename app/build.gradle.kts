@@ -82,8 +82,8 @@ dependencies {
 //    kapt("androidx.room:room-compiler:2.5.0")
 
     //dagger
-//    implementation("com.google.dagger:dagger:2.44.2")
-//    kapt("com.google.dagger:dagger-compiler:2.44.2")
+    implementation("com.google.dagger:dagger:2.44.2")
+    kapt("com.google.dagger:dagger-compiler:2.44.2")
 
     //rxJava
     implementation("io.reactivex.rxjava3:rxandroid:3.0.0")

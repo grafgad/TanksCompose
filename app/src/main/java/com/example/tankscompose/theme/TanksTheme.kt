@@ -64,17 +64,17 @@ private val DefaultRippleAlpha = RippleAlpha(
 
 private val DarkColorPalette = TanksColors(
     primary = AppColors.CustomBlue,
-    primaryVariant = Color.Unspecified,
+    primaryVariant = AppColors.BackgroundDark,
     secondary = AppColors.Black.copy(alpha = 0.4f),
     background = AppColors.BackgroundDark,
     content = AppColors.CustomGray
 )
 
 private val LightColorPalette = TanksColors(
-    primary = AppColors.CustomBlue,
-    primaryVariant = Color.Unspecified,
-    secondary = AppColors.Black.copy(alpha = 0.4f),
-    background = AppColors.BackgroundDark,
+    primary = AppColors.CustomRed,
+    primaryVariant = AppColors.BackgroundLight,
+    secondary = AppColors.Teal200,
+    background = AppColors.BackgroundLight,
     content = AppColors.CustomGray
 )
 
