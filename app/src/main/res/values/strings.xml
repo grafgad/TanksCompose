@@ -16,6 +16,9 @@
     <string name="clan_moto">Девиз</string>
     <string name="clan_description">Описание</string>
 
+<!--    PlayersListScreen-->
+    <string name="enter_player_name">Введите имя игрока:</string>
+
     <!--PlayerInfoScreen-->
     <string name="rating">"Личный рейтинг: "</string>
     <string name="wins_percent">"Процент побед: "</string>

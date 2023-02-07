@@ -36,7 +36,7 @@ data class TanksTypography(
     val h6: TextStyle = TextStyle(
         fontWeight = FontWeight.Normal,
         fontSize = 18.sp,
-        color = Color.Black
+        color = AppColors.CustomGray
     ),
     val body1: TextStyle = TextStyle(
         fontWeight = FontWeight.Normal,
