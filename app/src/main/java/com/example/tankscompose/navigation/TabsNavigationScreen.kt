@@ -42,7 +42,7 @@ private fun TabNavigation(
             ClansListScreen(navHostController)
         }
         composable(NavigationItem.Players.route) {
-            PlayersListScreen()
+            PlayersListScreen(navHostController)
         }
     }
 }

@@ -13,7 +13,7 @@ import com.example.tankscompose.screens.claninfoscreen.ClanInfoScreen
 import com.example.tankscompose.screens.clanslistscreen.ClansListScreen
 import com.example.tankscompose.screens.mainscreen.StartScreen
 import com.example.tankscompose.screens.playerinfoscreen.PlayerInfoScreen
-import com.example.tankscompose.screens.playerslistscreen.PlayerListScreen
+import com.example.tankscompose.screens.playerslistscreen.PlayersListScreen
 
 @Composable
 fun ScreensNavigationScreen(modifier: Modifier = Modifier) {
@@ -47,7 +47,7 @@ fun ScreenNavigation(
             PlayerInfoScreen()
         }
         composable(ScreensNavigationItem.PlayerListScreen.className) {
-            PlayerListScreen()
+            PlayersListScreen(navController = rememberNavController())
         }
         composable(ScreensNavigationItem.StartScreen.className) {
             StartScreen()
